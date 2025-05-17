@@ -1,5 +1,5 @@
 // components/CourseBanner.tsx
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function CourseBanner() {
   return (
@@ -17,7 +17,7 @@ export default function CourseBanner() {
             <span className="text-xl font-medium block mt-2">Empower your journey to success!</span>
             {/* <span className="text-xl font-medium block mt-2">Join Professional Navigators Today.</span> */}
           </h1>
-            {/* <h1 className="text-2xl font-extrabold leading-tight mb-4">Unlock Your True Potential</h1>
+          {/* <h1 className="text-2xl font-extrabold leading-tight mb-4">Unlock Your True Potential</h1>
             <span className="text-2xl font-medium block mt-2">
             At Professional Navigators, we specialize in guiding students pursuing professional courses to excel in their studies. Our structured and personalized approach ensures you are fully prepared to achieve your academic goals.
             </span> */}
@@ -74,7 +74,7 @@ export default function CourseBanner() {
               rel="noopener noreferrer"
               className="bg-red-600 text-white px-9 py-6 rounded-lg shadow-lg font-bold text-lg hover:bg-white hover:text-red-600 transition duration-300"
             >
-             Enroll Now
+              Enroll Now
             </a>
           </button>
         </div>

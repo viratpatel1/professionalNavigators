@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { MdEmail } from 'react-icons/md';
+// import Image from 'next/image';
+// import { MdEmail } from 'react-icons/md';
 
 export default function Footer() {
   return (
@@ -25,14 +25,14 @@ export default function Footer() {
 
             {/* Email */}
             {/* <div className="flex items-center text-gray-300 gap-2"> */}
-              {/* <MdEmail className="text-red-500 text-xl" style={{display:"inline"}}/> */}
-              <a
-                href="mailto:professionalnavigators135@gmail.com"
-                rel="noopener noreferrer"
-                className="hover:text-white transition-colors duration-200"
-              >
-                professionalnavigators135@gmail.com
-              </a>
+            {/* <MdEmail className="text-red-500 text-xl" style={{display:"inline"}}/> */}
+            <a
+              href="mailto:professionalnavigators135@gmail.com"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-200"
+            >
+              professionalnavigators135@gmail.com
+            </a>
             {/* </div> */}
 
             {/* Phone */}

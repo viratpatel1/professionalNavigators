@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Header from "./components/Header";
 import CourseBanner from "./components/Banner";
 import ModeOfTeaching from "./components/ModeOfTeaching";

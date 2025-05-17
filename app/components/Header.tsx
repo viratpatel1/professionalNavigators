@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 // import LoginPage from "../auth/page";
 // import { useState } from "react";
 
 
 export default function Header() {
-    const router = useRouter();
+    // const router = useRouter();
 
     // const handleLoginClick = () => {
     //     router.push("/auth");

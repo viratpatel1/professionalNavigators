@@ -33,7 +33,7 @@ const faqs = [
   },
 ];
 
-export default function FaqSection () {
+export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleFAQ = (index: number) => {
@@ -43,13 +43,13 @@ export default function FaqSection () {
   return (
     <section className="bg-white py-20 px-4 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
-        
+
         {/* Left Text Content */}
         <div className="flex-1">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">Frequently Asked Questions</h2>
           <h4 className="text-xl font-semibold mb-2 text-gray-700">Still Have Questions?</h4>
           <p className="text-gray-700 mb-6">
-            Can't find the answer you're looking for? Get in touch with us—our team will be happy to assist you.
+            Can &apos;t find the answer you&apos;re looking for? Get in touch with us—our team will be happy to assist you.
           </p>
           {/* <button className="bg-red-600 text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition">
             Get In Touch
@@ -61,7 +61,7 @@ export default function FaqSection () {
               rel="noopener noreferrer"
               className="bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg font-bold text-lg hover:bg-white hover:text-red-600 transition duration-300"
             >
-             Get In Touch
+              Get In Touch
             </a>
           </button>
         </div>
