@@ -169,6 +169,7 @@ function CourseBanner() {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
+// import Image from "next/image";
 __turbopack_context__.s({
     "default": (()=>ModeOfTeaching)
 });

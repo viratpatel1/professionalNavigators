@@ -61,7 +61,7 @@ export default function FaqSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-6">Frequently Asked Questions</h2>
           <h4 className="text-xl font-semibold mb-2 text-gray-700">Still Have Questions?</h4>
           <p className="text-gray-700 mb-6">
-            Can't find the answer you're looking for? Get in touch with us—our team will be happy to assist you.
+            Can&apos;t find the answer you&apos;re looking for? Get in touch with us—our team will be happy to assist you.
           </p>
           {/* <button className="bg-red-600 text-white font-semibold px-6 py-3 rounded hover:bg-red-700 transition">
             Get In Touch

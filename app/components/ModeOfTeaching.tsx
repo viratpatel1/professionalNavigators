@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { FaClipboardCheck, FaBullseye, FaBookOpen } from "react-icons/fa";
 import { MdOutlineEventNote, MdOutlineAssistant } from "react-icons/md";
 import { AiOutlineReload } from "react-icons/ai";
