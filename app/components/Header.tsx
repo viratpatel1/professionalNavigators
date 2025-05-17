@@ -1,18 +1,16 @@
 "use client";
-import { FaShoppingCart } from "react-icons/fa";
-import { CgProfile } from "react-icons/cg";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import LoginPage from "../auth/page";
+// import LoginPage from "../auth/page";
 // import { useState } from "react";
 
 
 export default function Header() {
     const router = useRouter();
 
-    const handleLoginClick = () => {
-        router.push("/auth");
-    };
+    // const handleLoginClick = () => {
+    //     router.push("/auth");
+    // };
     return (
         <header className="bg-white shadow-sm sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 py-6 lg:py-6 flex items-center justify-between">
@@ -70,7 +68,7 @@ export default function Header() {
 
                     <div className="relative group">
                         <a href="#success" className="flex items-center hover:text-red-600">
-                        Success Stories
+                            Success Stories
                             {/* <span className="ml-1 text-red-500">▼</span> */}
                         </a>
                         {/* <div className="absolute hidden group-hover:block bg-white shadow-md py-2 mt-1">

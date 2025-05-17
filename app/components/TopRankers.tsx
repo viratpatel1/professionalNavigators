@@ -1,15 +1,15 @@
 import React from 'react';
 
-const videos = [
-  'https://www.youtube.com/embed/yourVideoId1',
-  'https://www.youtube.com/embed/yourVideoId2',
-  'https://www.youtube.com/embed/yourVideoId3',
-];
+// const videos = [
+//   'https://www.youtube.com/embed/yourVideoId1',
+//   'https://www.youtube.com/embed/yourVideoId2',
+//   'https://www.youtube.com/embed/yourVideoId3',
+// ];
 
 export default function TopRankers() {
   return (
     <>
-    {/* // <section className="bg-gray-100 py-12 px-4 md:px-10"> */}
+      {/* // <section className="bg-gray-100 py-12 px-4 md:px-10"> */}
       {/* <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
         
         <div className="flex-1">
@@ -42,7 +42,7 @@ export default function TopRankers() {
           ))}
         </div>
       </div> */}
-    {/* // </section> */}
+      {/* // </section> */}
     </>
   );
 };
