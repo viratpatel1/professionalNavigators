@@ -1,25 +1,40 @@
 'use client'; // For Next.js app directory, ensure it's a client component
 
 import { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
+// import { CgProfile } from 'react-icons/cg';
+import { FaUserTie } from 'react-icons/fa6';
 
 export default function TestimonialSection() {
     const testimonials = [
         {
-            name: "Shagun Sharma",
-            feedback:
-                "Best classes for CA students. The way the teachers explain with concept clarity is amazing. One of the best things is the real-life examples the teachers give and the notes are really amazing too.",
+            name: "Riya Sharma – CA Intermediate Student",
+            feedback: "I joined for the 10-day trial just to see how it works and I ended up staying the entire journey. The daily targets and follow-ups kept me super consistent. I finally stopped procrastinating and started studying with a proper plan."
         },
         {
-            name: "Manjinder Singh",
-            feedback:
-                "I really enjoyed the online course Professional Navigator classes. All the facilities are so good. All the teachers motivate the students to crack the exam and it should really help us. All in all teaching style and education provided by teachers are more effective and excellent.",
+            name: "Ayush Jain – CMA Final Student",
+            feedback: "Before this, I used to make a timetable and never follow it. With Professional Navigators, I actually stuck to my schedule. The regular tests and progress tracking helped me stay focused every single day.",
         },
         {
-            name: "Gautam Miglani",
-            feedback:
-                "I’m a CA Intermediate student. I came across the Best Faculty for CA course which Professional Navigator Classes. I am extremely satisfied with the quality of classes. Moreover, prices are affordable too.",
+            name: "Meenal Deshpande – CS Executive Student",
+            feedback: "The team didn’t just guide me—they kept checking in on my progress. Even during exams, they were there to motivate me. It felt like I had someone walking beside me, not just giving instructions from afar."
         },
+        {
+            name: "Ravi Gupta – CA Foundation Student",
+            feedback: "What helped me most was the structure. I didn't have to think 'what should I do today?' It was already planned for me. Daily goals, consistent follow-ups, and quick doubt-solving made all the difference."
+        },
+        {
+            name: "Aditi Verma – CMA Inter Student",
+            feedback: "During the 10-day trial, I saw how serious they were about helping students. It wasn't just a test—it was real support. That trial gave me clarity and confidence to commit fully."
+        },
+        {
+            name: "Nikhil Mehra – CA Final Student",
+            feedback: "The mock tests were game-changing. I used to avoid them, but here they were regular and part of the routine. That helped me build exam stamina and understand my weak areas."
+        },
+        {
+            name: "Shruti Shah – CS Professional Student",
+            feedback: "What I loved was the personal attention. They remembered what I was working on, asked about my progress, and celebrated small wins. That kind of motivation kept me going, especially during tough phases."
+        }
     ];
 
     const scrollRef = useRef<HTMLDivElement>(null);
@@ -48,7 +63,6 @@ export default function TestimonialSection() {
         <section id="success" className="scroll-pt-0 pb-15 px-4 lg:px-35 bg-white relative overflow-hidden scroll-smooth">
             {/* Centered Section Label */}
             <div className="text-center mb-25">
-                {/* <p className="text-sm text-gray-500 uppercase tracking-widest font-semibold">Testimonials</p> */}
                 <h2 className="text-4xl font-extrabold text-black mb-12 text-center">Testimonials</h2>
             </div>
 
@@ -77,13 +91,8 @@ export default function TestimonialSection() {
                             <div className="flex flex-col gap-4">
                                 {/* Profile Icon */}
                                 <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center self-center">
-                                    <Image
-                                        src="/images/down.jpeg"
-                                        alt="Student profile picture"
-                                        width={48}
-                                        height={48}
-                                        className="w-full h-full object-cover rounded-full"
-                                    />
+                                    {/* <CgProfile className="text-3xl text-gray-600" /> */}
+                                    <FaUserTie className="text-3xl text-gray-600" />
                                 </div>
 
                                 {/* Feedback */}
@@ -94,6 +103,7 @@ export default function TestimonialSection() {
                             </div>
                         </div>
                     ))}
+
                 </div>
             </div>
         </section>

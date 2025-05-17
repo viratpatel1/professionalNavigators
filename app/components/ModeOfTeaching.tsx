@@ -1,45 +1,50 @@
 import Image from "next/image";
+import { FaClipboardCheck, FaBullseye, FaBookOpen } from "react-icons/fa";
+import { MdOutlineEventNote, MdOutlineAssistant } from "react-icons/md";
+import { AiOutlineReload } from "react-icons/ai";
+import { IoMdHelpCircleOutline } from "react-icons/io";
+
 
 const modes = [
   {
     title: "Mock Tests for Self-Evaluation",
-    icon: "/images/down.jpeg",
+    icon: <FaClipboardCheck className="w-full h-full text-blue-600" />,
     description:
       "Identify your strengths and areas of improvement. Experience exam-like conditions.",
   },
   {
     title: "Customized Study Plans",
-    icon: "/images/down.jpeg",
+    icon: <MdOutlineEventNote className="w-full h-full text-green-600" />,
     description:
       "Tailored to your routine and convenience. Designed to optimize your preparation.",
   },
   {
     title: "Daily Study Targets",
-    icon: "/images/down.jpeg",
+    icon: <FaBullseye className="w-full h-full text-red-500" />,
     description:
       "Stay focused and disciplined. Clear milestones to achieve daily progress.",
   },
   {
     title: "Regular Follow-Ups",
-    icon: "/images/down.jpeg",
+    icon: <AiOutlineReload className="w-full h-full text-yellow-500" />,
     description:
       "Session-wise follow-ups for accountability. Ensure consistent progress throughout the day.",
   },
   {
     title: "Timely Doubt Solving",
-    icon: "/images/down.jpeg",
+    icon: <IoMdHelpCircleOutline className="w-full h-full text-purple-500" />,
     description:
       "Instant solutions to your queries. Expert guidance to clear concepts.",
   },
   {
     title: "Comprehensive Test Series",
-    icon: "/images/down.jpeg",
+    icon: <FaBookOpen className="w-full h-full text-indigo-600" />,
     description:
       "Test series for rigorous practice. Sharpen your exam readiness.",
   },
   {
     title: "Exam Period Guidance",
-    icon: "/images/down.jpeg",
+    icon: <MdOutlineAssistant className="w-full h-full text-pink-500" />,
     description:
       "Personalized attention during critical times. Boost confidence with strategic support.",
   },
@@ -75,13 +80,29 @@ export default function ModeOfTeaching() {
               key={index}
               className="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-xl transition w-full sm:w-[45%] lg:w-[22%] flex flex-col items-center text-center"
             >
+              <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-white shadow-inner">
+                {mode.icon}
+              </div>
+              <h3 className="font-semibold text-lg text-gray-700 mb-2">{mode.title}</h3>
+              <p className="text-sm text-gray-600">{mode.description}</p>
+            </div>
+          ))}
+        </div>
+
+
+        {/* <div className="flex flex-wrap justify-center gap-10 max-w-7xl mx-auto">
+          {modes.map((mode, index) => (
+            <div
+              key={index}
+              className="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-xl transition w-full sm:w-[45%] lg:w-[22%] flex flex-col items-center text-center"
+            >
               <div className="w-16 h-16 mx-auto mb-4">
                 <Image
                   src={mode.icon}
                   alt={mode.title}
                   width={64}
                   height={64}
-                  // className="object-contain"
+                  className="object-contain"
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
@@ -89,7 +110,7 @@ export default function ModeOfTeaching() {
               <p className="text-sm text-gray-600">{mode.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
 
 
       </section>
@@ -169,7 +190,7 @@ export default function ModeOfTeaching() {
                 src={faculty.img}
                 alt={faculty.name}
                 className="w-28 h-28 object-contain mx-auto mb-4"
-                // className="w-full h-full object-cover rounded-full"
+              // className="w-full h-full object-cover rounded-full"
               />
               <h3 className="text-red-600 font-bold text-lg uppercase">{faculty.name}</h3>
               <p className="text-gray-800 mt-2 text-sm">{faculty.experience} of teaching experience</p>
