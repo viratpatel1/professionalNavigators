@@ -393,54 +393,112 @@ function ModeOfTeaching() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-4xl font-extrabold text-black mb-12 text-center",
-                        children: "Our Core Team"
+                        children: "Our Success Team"
                     }, void 0, false, {
                         fileName: "[project]/app/components/ModeOfTeaching.tsx",
                         lineNumber: 185,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto",
-                        children: facultyTeam.map((faculty, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-gray-100 rounded-lg p-6 text-center shadow-sm",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: faculty.img,
-                                        alt: faculty.name,
-                                        className: "w-28 h-28 object-contain mx-auto mb-4"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        id: "team",
+                        className: "py-1 bg-white px-0 scroll-mt-30",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 min-h-[500px]",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col justify-center px-10 md:pr-16 bg-white",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-800 text-lg leading-relaxed mb-6",
+                                            children: "Behind Professional Navigators is a team of professionally qualified individuals—those who’ve been through the same exams you're preparing for and know exactly what it takes to succeed."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                            lineNumber: 206,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-800 text-lg leading-relaxed mb-8",
+                                            children: "Whether it's CA, CMA, or CS—our team members are not just teachers, they are mentors who have cleared these exams themselves. They understand the challenges, the pressure, and the strategies needed to overcome them."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                            lineNumber: 209,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "bg-white border border-gray-200 rounded-xl p-6 shadow-sm",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                className: "space-y-3 text-gray-700 text-base list-inside list-disc",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: "Professionally Qualified Mentors"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                                        lineNumber: 214,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: "Practical & Exam-Oriented Guidance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                                        lineNumber: 215,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: "Personal Accountability"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                                        lineNumber: 216,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: "Focused on Your Success"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                                        lineNumber: 217,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                                lineNumber: 213,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                            lineNumber: 212,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-white flex items-center justify-center p-10",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: "/images/connecting-teams.svg",
+                                        alt: "Mentors guiding students",
+                                        className: "w-full max-w-lg drop-shadow-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/ModeOfTeaching.tsx",
-                                        lineNumber: 189,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-red-600 font-bold text-lg uppercase",
-                                        children: faculty.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
-                                        lineNumber: 195,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 mt-2 text-sm",
-                                        children: [
-                                            faculty.experience,
-                                            " of teaching experience"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/components/ModeOfTeaching.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 224,
                                         columnNumber: 15
                                     }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/app/components/ModeOfTeaching.tsx",
-                                lineNumber: 188,
-                                columnNumber: 13
-                            }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                                    lineNumber: 223,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/components/ModeOfTeaching.tsx",
+                            lineNumber: 202,
+                            columnNumber: 11
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/ModeOfTeaching.tsx",
-                        lineNumber: 186,
+                        lineNumber: 201,
                         columnNumber: 9
                     }, this)
                 ]
@@ -669,7 +727,7 @@ function Footer() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
                                             className: "hover:text-white",
-                                            children: "CA Foundation"
+                                            children: "CA"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Footer.tsx",
                                             lineNumber: 36,
@@ -684,7 +742,7 @@ function Footer() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#",
                                             className: "hover:text-white",
-                                            children: "CA Inter"
+                                            children: "CS"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Footer.tsx",
                                             lineNumber: 37,

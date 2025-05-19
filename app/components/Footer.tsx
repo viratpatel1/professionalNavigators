@@ -33,8 +33,8 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold text-white text-lg mb-4">Courses</h4>
           <ul className="text-gray-300 space-y-2 text-sm">
-            <li><a href="#" className="hover:text-white">CA Foundation</a></li>
-            <li><a href="#" className="hover:text-white">CA Inter</a></li>
+            <li><a href="#" className="hover:text-white">CA</a></li>
+            <li><a href="#" className="hover:text-white">CS</a></li>
             <li><a href="#" className="hover:text-white">CMA</a></li>
           </ul>
         </div>

@@ -1,11 +1,10 @@
-'use client'; // For Next.js app directory, ensure it's a client component
+'use client';
 
 import { useEffect, useRef, useState } from 'react';
-// import Image from 'next/image';
-// import { CgProfile } from 'react-icons/cg';
 import { FaUserTie } from 'react-icons/fa6';
 
 export default function TestimonialSection() {
+    /* ----------------------------- data (unchanged) ----------------------------- */
     const testimonials = [
         {
             name: "Riya Sharma – CA Intermediate Student",
@@ -37,51 +36,97 @@ export default function TestimonialSection() {
         }
     ];
 
+    /* --------------------------- refs, state, helpers --------------------------- */
     const scrollRef = useRef<HTMLDivElement>(null);
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const indexRef = useRef(0);                 // holds the current slide index
+    const autoplayRef = useRef<NodeJS.Timer>(); // stores the interval ID
 
+    // Move to the next card
+    const scrollToIndex = (nextIndex: number) => {
+        const container = scrollRef.current;
+        if (!container) return;
+
+        const cardWidth =
+            (container.firstElementChild as HTMLElement).offsetWidth + 16; // card width + gap
+        container.scrollTo({ left: cardWidth * nextIndex, behavior: 'smooth' });
+        indexRef.current = nextIndex;
+    };
+
+    /* ------------------------------ autoplay setup ------------------------------ */
     useEffect(() => {
-        const scroll = () => {
-            if (!scrollRef.current) return;
-
-            const container = scrollRef.current;
-            const cardWidth = (container.firstElementChild as HTMLElement).offsetWidth + 16; // card + gap
-            const newIndex = (currentIndex + 1) % testimonials.length;
-            container.scrollTo({
-                left: cardWidth * newIndex,
-                behavior: 'smooth',
-            });
-            setCurrentIndex(newIndex);
+        const startAutoplay = () => {
+            autoplayRef.current = setInterval(() => {
+                const next = (indexRef.current + 1) % testimonials.length;
+                scrollToIndex(next);
+            }, 2500);
         };
 
-        const interval = setInterval(scroll, 2000);
+        const stopAutoplay = () => {
+            if (autoplayRef.current) {
+                clearInterval(autoplayRef.current);
+                autoplayRef.current = undefined;
+            }
+        };
 
-        return () => clearInterval(interval);
-    }, [currentIndex, testimonials.length]);
+        startAutoplay();
 
+        /* ---------- pause when user drags / touches, resume afterwards ---------- */
+        const container = scrollRef.current;
+        if (!container) return;
+
+        const handleDown = () => stopAutoplay();
+        const handleUp = () => startAutoplay();
+
+        container.addEventListener('pointerdown', handleDown, { passive: true });
+        container.addEventListener('pointerup', handleUp, { passive: true });
+        container.addEventListener('pointercancel', handleUp, { passive: true });
+        container.addEventListener('touchstart', handleDown, { passive: true });
+        container.addEventListener('touchend', handleUp, { passive: true });
+
+        /* -------------------------- cleanup on unmount -------------------------- */
+        return () => {
+            stopAutoplay();
+            container.removeEventListener('pointerdown', handleDown);
+            container.removeEventListener('pointerup', handleUp);
+            container.removeEventListener('pointercancel', handleUp);
+            container.removeEventListener('touchstart', handleDown);
+            container.removeEventListener('touchend', handleUp);
+        };
+    }, [testimonials.length]);
+
+    /* --------------------------------- render ---------------------------------- */
     return (
-        <section id="success" className="scroll-pt-0 pb-15 px-4 lg:px-35 bg-white relative overflow-hidden scroll-smooth">
-            {/* Centered Section Label */}
+        <section
+            id="success"
+            className="scroll-pt-0 pb-15 px-4 lg:px-35 bg-white relative overflow-hidden scroll-smooth"
+        >
+            {/* heading */}
             <div className="text-center mb-25">
-                <h2 className="text-4xl font-extrabold text-black mb-12 text-center">Testimonials</h2>
+                <h2 className="text-4xl font-extrabold text-black mb-12 text-center">
+                    Testimonials
+                </h2>
             </div>
 
-            {/* Flex container for left & right */}
+            {/* text + carousel */}
             <div className="flex flex-col lg:flex-row items-start justify-between gap-12">
-                {/* Left Side Text */}
+                {/* left text */}
                 <div className="lg:w-1/2">
                     <h2 className="text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-                        What our students <br /> have to say
+                        What our students <br />
+                        have to say
                     </h2>
                     <p className="text-gray-700 text-lg">
-                        Hear directly from our students about their journey with SPC! With expert guidance, innovative teaching methods, and a student-first approach, we have helped shape countless CA aspirants into future professionals.
+                        Hear directly from our students about their journey with SPC! With
+                        expert guidance, innovative teaching methods, and a student‑first
+                        approach, we have helped shape countless CA aspirants into future
+                        professionals.
                     </p>
                 </div>
 
-                {/* Right Side Carousel */}
+                {/* right carousel */}
                 <div
-                    className="lg:w-1/2 flex gap-4 overflow-x-auto hide-scrollbar snap-x snap-mandatory"
                     ref={scrollRef}
+                    className="lg:w-1/2 flex gap-4 overflow-x-auto hide-scrollbar snap-x snap-mandatory scroll-smooth"
                 >
                     {testimonials.map((item, index) => (
                         <div
@@ -89,21 +134,19 @@ export default function TestimonialSection() {
                             className="bg-gray-50 rounded-xl shadow-md p-6 min-w-[300px] max-w-[350px] snap-center"
                         >
                             <div className="flex flex-col gap-4">
-                                {/* Profile Icon */}
+                                {/* avatar */}
                                 <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center self-center">
-                                    {/* <CgProfile className="text-3xl text-gray-600" /> */}
                                     <FaUserTie className="text-3xl text-gray-600" />
                                 </div>
 
-                                {/* Feedback */}
+                                {/* feedback */}
                                 <p className="text-gray-800 text-sm">{item.feedback}</p>
 
-                                {/* Name */}
+                                {/* name */}
                                 <p className="text-gray-900 font-semibold">{item.name}</p>
                             </div>
                         </div>
                     ))}
-
                 </div>
             </div>
         </section>

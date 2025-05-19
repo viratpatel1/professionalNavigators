@@ -182,8 +182,8 @@ export default function ModeOfTeaching() {
 
       {/* OUR CORE TEAM */}
       <section id="team" className="scroll-smooth py-1 bg-white px-6 md:px-20 scroll-mt-30">
-        <h2 className="text-4xl font-extrabold text-black mb-12 text-center">Our Core Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <h2 className="text-4xl font-extrabold text-black mb-12 text-center">Our Success Team</h2>
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {facultyTeam.map((faculty, index) => (
             <div key={index} className="bg-gray-100 rounded-lg p-6 text-center shadow-sm">
               <img
@@ -196,7 +196,40 @@ export default function ModeOfTeaching() {
               <p className="text-gray-800 mt-2 text-sm">{faculty.experience} of teaching experience</p>
             </div>
           ))}
-        </div>
+        </div> */}
+
+        <section id="team" className="py-1 bg-white px-0 scroll-mt-30">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 min-h-[500px]">
+
+            {/* LEFT: Content with vertical border */}
+            <div className="flex flex-col justify-center px-10 md:pr-16 bg-white">
+              <p className="text-gray-800 text-lg leading-relaxed mb-6">
+                Behind Professional Navigators is a team of professionally qualified individuals—those who’ve been through the same exams you're preparing for and know exactly what it takes to succeed.
+              </p>
+              <p className="text-gray-800 text-lg leading-relaxed mb-8">
+                Whether it's CA, CMA, or CS—our team members are not just teachers, they are mentors who have cleared these exams themselves. They understand the challenges, the pressure, and the strategies needed to overcome them.
+              </p>
+              <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+                <ul className="space-y-3 text-gray-700 text-base list-inside list-disc">
+                  <li>Professionally Qualified Mentors</li>
+                  <li>Practical & Exam-Oriented Guidance</li>
+                  <li>Personal Accountability</li>
+                  <li>Focused on Your Success</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* RIGHT: Full-height visual area */}
+            <div className="bg-white flex items-center justify-center p-10">
+              <img
+                src="/images/connecting-teams.svg"
+                alt="Mentors guiding students"
+                className="w-full max-w-lg drop-shadow-lg"
+              />
+            </div>
+
+          </div>
+        </section>
       </section>
     </>
   );
