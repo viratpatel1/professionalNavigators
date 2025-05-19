@@ -38,7 +38,7 @@ export default function TestimonialSection() {
 
     /* --------------------------- refs, state, helpers --------------------------- */
     const scrollRef = useRef<HTMLDivElement>(null);
-    const indexRef = useRef(0);                 // holds the current slide index
+    const indexRef = useRef(1);
     const autoplayRef = useRef<NodeJS.Timer>(); // stores the interval ID
 
     // Move to the next card
