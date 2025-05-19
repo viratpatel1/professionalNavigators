@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { FaUserTie } from 'react-icons/fa6';
 
 export default function TestimonialSection() {

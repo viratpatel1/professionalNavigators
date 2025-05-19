@@ -50,16 +50,16 @@ const modes = [
   },
 ];
 
-const facultyTeam = [
-  { name: "CA Swapnil Patni", experience: "17 years", img: "/images/down.jpeg" },
-  { name: "CA Ankita Patni", experience: "13 years", img: "/images/down.jpeg" },
-  { name: "CA Anand Bhangariya", experience: "20 years", img: "/images/down.jpeg" },
-  { name: "CA Pooja Kamdar Date", experience: "22 years", img: "/images/down.jpeg" },
-  { name: "CA Pranav Popat", experience: "7 years", img: "/images/down.jpeg" },
-  { name: "CA Mohnish Vora", experience: "7 years", img: "/images/down.jpeg" },
-  { name: "CA Kapil Goyal", experience: "12 years", img: "/images/down.jpeg" },
-  { name: "CA Harshad Jaju", experience: "13 years", img: "/images/down.jpeg" },
-];
+// const facultyTeam = [
+//   { name: "CA Swapnil Patni", experience: "17 years", img: "/images/down.jpeg" },
+//   { name: "CA Ankita Patni", experience: "13 years", img: "/images/down.jpeg" },
+//   { name: "CA Anand Bhangariya", experience: "20 years", img: "/images/down.jpeg" },
+//   { name: "CA Pooja Kamdar Date", experience: "22 years", img: "/images/down.jpeg" },
+//   { name: "CA Pranav Popat", experience: "7 years", img: "/images/down.jpeg" },
+//   { name: "CA Mohnish Vora", experience: "7 years", img: "/images/down.jpeg" },
+//   { name: "CA Kapil Goyal", experience: "12 years", img: "/images/down.jpeg" },
+//   { name: "CA Harshad Jaju", experience: "13 years", img: "/images/down.jpeg" },
+// ];
 
 export default function ModeOfTeaching() {
   return (
@@ -204,7 +204,7 @@ export default function ModeOfTeaching() {
             {/* LEFT: Content with vertical border */}
             <div className="flex flex-col justify-center px-10 md:pr-16 bg-white">
               <p className="text-gray-800 text-lg leading-relaxed mb-6">
-                Behind Professional Navigators is a team of professionally qualified individuals—those who’ve been through the same exams you're preparing for and know exactly what it takes to succeed.
+                Behind Professional Navigators is a team of professionally qualified individuals—those who&apos;ve been through the same exams you&apos;re preparing for and know exactly what it takes to succeed.
               </p>
               <p className="text-gray-800 text-lg leading-relaxed mb-8">
                 Whether it's CA, CMA, or CS—our team members are not just teachers, they are mentors who have cleared these exams themselves. They understand the challenges, the pressure, and the strategies needed to overcome them.

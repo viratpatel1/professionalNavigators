@@ -262,48 +262,6 @@ const modes = [
         description: "Personalized attention during critical times. Boost confidence with strategic support."
     }
 ];
-const facultyTeam = [
-    {
-        name: "CA Swapnil Patni",
-        experience: "17 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Ankita Patni",
-        experience: "13 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Anand Bhangariya",
-        experience: "20 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Pooja Kamdar Date",
-        experience: "22 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Pranav Popat",
-        experience: "7 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Mohnish Vora",
-        experience: "7 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Kapil Goyal",
-        experience: "12 years",
-        img: "/images/down.jpeg"
-    },
-    {
-        name: "CA Harshad Jaju",
-        experience: "13 years",
-        img: "/images/down.jpeg"
-    }
-];
 function ModeOfTeaching() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -410,7 +368,7 @@ function ModeOfTeaching() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-gray-800 text-lg leading-relaxed mb-6",
-                                            children: "Behind Professional Navigators is a team of professionally qualified individuals—those who’ve been through the same exams you're preparing for and know exactly what it takes to succeed."
+                                            children: "Behind Professional Navigators is a team of professionally qualified individuals—those who've been through the same exams you're preparing for and know exactly what it takes to succeed."
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/ModeOfTeaching.tsx",
                                             lineNumber: 206,
