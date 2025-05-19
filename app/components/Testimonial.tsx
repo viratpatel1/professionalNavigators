@@ -62,9 +62,9 @@ export default function TestimonialSection() {
         };
 
         const stopAutoplay = () => {
-            if (autoplayRef.current) {
+            if (autoplayRef.current !== null) {
                 clearInterval(autoplayRef.current);
-                autoplayRef.current = undefined;
+                autoplayRef.current = null;
             }
         };
 

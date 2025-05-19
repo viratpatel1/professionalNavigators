@@ -216,9 +216,9 @@ function TestimonialSection() {
             }["TestimonialSection.useEffect.startAutoplay"];
             const stopAutoplay = {
                 "TestimonialSection.useEffect.stopAutoplay": ()=>{
-                    if (autoplayRef.current) {
+                    if (autoplayRef.current !== null) {
                         clearInterval(autoplayRef.current);
-                        autoplayRef.current = undefined;
+                        autoplayRef.current = null;
                     }
                 }
             }["TestimonialSection.useEffect.stopAutoplay"];
