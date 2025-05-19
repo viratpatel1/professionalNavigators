@@ -38,8 +38,8 @@ export default function TestimonialSection() {
 
     /* --------------------------- refs, state, helpers --------------------------- */
     const scrollRef = useRef<HTMLDivElement>(null);
-    const indexRef = useRef(1);
-    const autoplayRef = useRef<NodeJS.Timer>(); // stores the interval ID
+    const indexRef = useRef(0);
+    const autoplayRef = useRef<NodeJS.Timer | null>(null); // ✅ no type‑error
 
     // Move to the next card
     const scrollToIndex = (nextIndex: number) => {
