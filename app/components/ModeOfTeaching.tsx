@@ -207,7 +207,7 @@ export default function ModeOfTeaching() {
                 Behind Professional Navigators is a team of professionally qualified individuals—those who&apos;ve been through the same exams you&apos;re preparing for and know exactly what it takes to succeed.
               </p>
               <p className="text-gray-800 text-lg leading-relaxed mb-8">
-                Whether it's CA, CMA, or CS—our team members are not just teachers, they are mentors who have cleared these exams themselves. They understand the challenges, the pressure, and the strategies needed to overcome them.
+                Whether it&apos;s CA, CMA, or CS—our team members are not just teachers, they are mentors who have cleared these exams themselves. They understand the challenges, the pressure, and the strategies needed to overcome them.
               </p>
               <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
                 <ul className="space-y-3 text-gray-700 text-base list-inside list-disc">
