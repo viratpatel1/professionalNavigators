@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url("../media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2") format("woff2");
+  src: url("../media/gyByhwUxId8gMEwcGFWNOITd-s.p.1a6fa3e1.woff2") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -770,6 +770,14 @@
     max-width: var(--container-7xl);
   }
 
+  .max-w-\[85vw\] {
+    max-width: 85vw;
+  }
+
+  .max-w-\[300px\] {
+    max-width: 300px;
+  }
+
   .max-w-\[350px\] {
     max-width: 350px;
   }
@@ -780,6 +788,14 @@
 
   .max-w-md {
     max-width: var(--container-md);
+  }
+
+  .min-w-\[80vw\] {
+    min-width: 80vw;
+  }
+
+  .min-w-\[280px\] {
+    min-width: 280px;
   }
 
   .min-w-\[300px\] {
@@ -1615,6 +1631,18 @@
   @media (width >= 64rem) {
     .lg\:w-\[22\%\] {
       width: 22%;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:max-w-\[350px\] {
+      max-width: 350px;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:min-w-\[300px\] {
+      min-width: 300px;
     }
   }
 
