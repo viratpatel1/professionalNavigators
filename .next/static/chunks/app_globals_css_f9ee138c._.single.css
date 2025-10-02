@@ -1155,6 +1155,10 @@
     letter-spacing: var(--tracking-widest);
   }
 
+  .break-words {
+    overflow-wrap: break-word;
+  }
+
   .text-black {
     color: var(--color-black);
   }
@@ -1426,6 +1430,12 @@
   }
 
   @media (width >= 40rem) {
+    .sm\:w-\[300px\] {
+      width: 300px;
+    }
+  }
+
+  @media (width >= 40rem) {
     .sm\:max-w-\[350px\] {
       max-width: 350px;
     }
@@ -1472,6 +1482,12 @@
   @media (width >= 48rem) {
     .md\:w-\[320px\] {
       width: 320px;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:w-\[350px\] {
+      width: 350px;
     }
   }
 
