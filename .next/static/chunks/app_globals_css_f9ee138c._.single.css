@@ -568,6 +568,10 @@
     margin-left: calc(var(--spacing) * 2);
   }
 
+  .box-border {
+    box-sizing: border-box;
+  }
+
   .block {
     display: block;
   }
@@ -654,6 +658,10 @@
 
   .w-28 {
     width: calc(var(--spacing) * 28);
+  }
+
+  .w-\[90vw\] {
+    width: 90vw;
   }
 
   .w-\[250px\] {
@@ -1438,6 +1446,12 @@
   @media (width >= 40rem) {
     .sm\:max-w-\[350px\] {
       max-width: 350px;
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:max-w-\[400px\] {
+      max-width: 400px;
     }
   }
 

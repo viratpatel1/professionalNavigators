@@ -97,14 +97,6 @@ export default function TestimonialSection() {
 
                 {/* Carousel */}
                 <div
-                    // ref={scrollRef}
-                    // className="lg:w-1/2 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth"
-                    // onMouseEnter={stopAutoScroll}
-                    // onMouseLeave={startAutoScroll}
-                    // onTouchStart={stopAutoScroll}
-                    // onTouchEnd={startAutoScroll}
-                    // onScroll={handleManualScroll}
-
                     ref={scrollRef}
                     className="lg:w-1/2 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth"
                     onMouseEnter={stopAutoScroll}
@@ -119,7 +111,8 @@ export default function TestimonialSection() {
                             className="
         bg-gray-50 rounded-xl shadow-md p-6
         flex-shrink-0 snap-center
-        w-full sm:w-[300px] md:w-[350px] 
+        w-[90vw] sm:w-[300px] md:w-[350px]
+        box-border
       "
                         >
                             <div className="flex flex-col gap-4">
@@ -149,6 +142,8 @@ export default function TestimonialSection() {
                         </div>
                     ))}
                 </div>
+
+
             </div>
         </section>
     );

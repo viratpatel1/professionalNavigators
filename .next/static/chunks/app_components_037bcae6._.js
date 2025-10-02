@@ -301,13 +301,6 @@ function TestimonialSection() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        // ref={scrollRef}
-                        // className="lg:w-1/2 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth"
-                        // onMouseEnter={stopAutoScroll}
-                        // onMouseLeave={startAutoScroll}
-                        // onTouchStart={stopAutoScroll}
-                        // onTouchEnd={startAutoScroll}
-                        // onScroll={handleManualScroll}
                         ref: scrollRef,
                         className: "lg:w-1/2 flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth",
                         onMouseEnter: stopAutoScroll,
@@ -316,7 +309,7 @@ function TestimonialSection() {
                         onTouchEnd: startAutoScroll,
                         onScroll: handleManualScroll,
                         children: testimonials.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: " bg-gray-50 rounded-xl shadow-md p-6 flex-shrink-0 snap-center w-full sm:w-[300px] md:w-[350px]  ",
+                                className: " bg-gray-50 rounded-xl shadow-md p-6 flex-shrink-0 snap-center w-[90vw] sm:w-[300px] md:w-[350px] box-border ",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-col gap-4",
                                     children: [
@@ -326,12 +319,12 @@ function TestimonialSection() {
                                                 className: "text-3xl text-gray-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 120,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 119,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -339,7 +332,7 @@ function TestimonialSection() {
                                             children: expanded[i] ? item.feedback : getShortText(item.feedback)
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 123,
                                             columnNumber: 33
                                         }, this),
                                         item.feedback.length > 150 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -354,7 +347,7 @@ function TestimonialSection() {
                                             children: expanded[i] ? "Read Less" : "Read More"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 128,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -362,18 +355,18 @@ function TestimonialSection() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 140,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 118,
                                     columnNumber: 29
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 117,
+                                lineNumber: 109,
                                 columnNumber: 25
                             }, this))
                     }, void 0, false, {
