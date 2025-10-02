@@ -161,11 +161,12 @@ function TestimonialSection() {
     const testimonials = [
         {
             name: "Aakarsh Shukla – CA Final Student",
-            feedback: "I joined Professional Navigator's mentorship for my CA Final and it was truly a game-changer. Prachi Ma'am ensured accountability with regular follow-ups, which kept me focused every single day. Writing full-length test papers helped me improve speed and attempt papers completely. With her structured schedule and planned revisions, I was able to cover everything systematically and study 10+ hours daily without wasting time. This was undoubtedly my best attempt, and I'll always be grateful for her constant guidance and support."
+            feedback: "I joined Professional Navigator’s mentorship for my CA Final and it was truly a game-changer. Prachi Ma’am ensured accountability with regular follow-ups, which kept me focused every single day. Writing full-length test papers helped me improve speed and attempt papers completely. With her structured schedule and planned revisions, I was able to cover everything systematically and study 10+ hours daily without wasting time. This was undoubtedly my best attempt, and I’ll always be grateful for her constant guidance and support."
         },
+        // { name: "Aakarsh Shukla – CA Intermediate Student", feedback: "I had taken Professional Navigator’s Mentorship program for my CA Final exams of May 25. Prachi Maam was guiding me throughout the journey till my last exam. I can pinpoint various key factors that helped me give my best in this attempt.I can honestly tell this was my best attempt. 1.Accountability is what really helped me in this program.I was being accountable for every hour through constant follow up by Prachi Maam. Just by realizing that she’s gonna call me after every 2-3 hrs to check up on me about my study status, It kept me on my toes and my mind would wander less on unnecessary things. It helped me cut down on my unnecessary breaks and even while studies used to slow down sometimes for any reason I was still on track. 2.Test paper writing- I was able to write 3 to 4 full portion test paper that I had never written before in any attempts.I had written a full portion test even a day before for IDT exams that helped me feel confident about my preparation. Test paper writing of 3 hrs helps you to work on your speed and helps you analyze your mistakes. My paper always used to be incomplete during the final exam. Test paper writing helped me bridge that gap this time. 3.Everyday schedule- I didn’t have to invest time in planning where to start from.Every day I knew what I had study and I used to go for it. Even while changing subjects, we invest time in planning how to go about a particular subject, which was easier and quicker with Prachi maam’s guidance. 4.Proper schedule- I was able to study for minimum 10 hrs every day because I knew what I had to study and how much time to invest on what topics. 5.Multiple revisions- I was a set number of days for revisions and after that test paper writing Used to be conducted.So because of this cycle I was able to revise atleast 2-3 times that helped me significantly improve my performance in exams. A feedback if I can give would be to simply ask questions to mentees and listen attentively on what help do they need, what they think is lacking in their preparation and then you focus your efforts in bridging that gap. Every mentee is different and they join mentorship to get their issues addressed.One method for all the mentees might not be effective. Thanks to Professional Navigators and Prachi Maam for her guidance.She has always been diligent in her approach of helping me move ahead.I’ll always remember her contribution in this preparation journey." },
         {
             name: "Ayush Jain – CA Final Student",
-            feedback: "Professional Navigator's mentorship was really a great step for me in CA Final prep. Prachi Ma'am's follow-ups kept me accountable, and the test papers improved both my speed and confidence. Her planned schedule made studying so much easier. This was my best attempt till now, and I'm truly grateful for her guidance."
+            feedback: "Professional Navigator’s mentorship was really a great step for me in CA Final prep. Prachi Ma’am’s follow-ups kept me accountable, and the test papers improved both my speed and confidence. Her planned schedule made studying so much easier. This was my best attempt till now, and I’m truly grateful for her guidance."
         },
         {
             name: "Nikhil Mehra – CA Final Student",
@@ -181,8 +182,9 @@ function TestimonialSection() {
         },
         {
             name: "Meenal Deshpande – CS Executive Student",
-            feedback: "The team didn't just guide me—they kept checking in on my progress. Even during exams, they were there to motivate me. It felt like I had someone walking beside me, not just giving instructions from afar."
+            feedback: "The team didn’t just guide me—they kept checking in on my progress. Even during exams, they were there to motivate me. It felt like I had someone walking beside me, not just giving instructions from afar."
         },
+        // { name: "Aditi Verma – CMA Inter Student", feedback: "During the 10-day trial, I saw how serious they were about helping students. It wasn't just a test—it was real support. That trial gave me clarity and confidence to commit fully." },
         {
             name: "Shruti Shah – CS Professional Student",
             feedback: "What I loved was the personal attention. They remembered what I was working on, asked about my progress, and celebrated small wins. That kind of motivation kept me going, especially during tough phases."
@@ -224,12 +226,12 @@ function TestimonialSection() {
                     children: "Testimonials"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Testimonial.tsx",
-                    lineNumber: 82,
+                    lineNumber: 56,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Testimonial.tsx",
-                lineNumber: 81,
+                lineNumber: 55,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -244,14 +246,14 @@ function TestimonialSection() {
                                     "What our students ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 63,
                                         columnNumber: 43
                                     }, this),
                                     "have to say"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 88,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -259,13 +261,13 @@ function TestimonialSection() {
                                 children: "Hear directly from our students about their journey with SPC! With expert guidance, innovative teaching methods, and a student-first approach, we have helped shape countless CA aspirants into future professionals."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 92,
+                                lineNumber: 66,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Testimonial.tsx",
-                        lineNumber: 87,
+                        lineNumber: 61,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,12 +287,12 @@ function TestimonialSection() {
                                                         className: "text-3xl text-gray-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 104,
+                                                        lineNumber: 78,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 77,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -298,7 +300,7 @@ function TestimonialSection() {
                                                     children: testimonials[currentIndex].feedback
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 81,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -306,18 +308,18 @@ function TestimonialSection() {
                                                     children: testimonials[currentIndex].name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 85,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 76,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 75,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -330,12 +332,12 @@ function TestimonialSection() {
                                                     className: "text-gray-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 97,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 93,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -345,12 +347,12 @@ function TestimonialSection() {
                                                         className: `w-2 h-2 rounded-full transition-colors ${index === currentIndex ? 'bg-gray-700' : 'bg-gray-300'}`
                                                     }, index, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 128,
+                                                        lineNumber: 102,
                                                         columnNumber: 37
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 100,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -360,24 +362,24 @@ function TestimonialSection() {
                                                     className: "text-gray-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 115,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 111,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 92,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 100,
+                                lineNumber: 74,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -393,12 +395,12 @@ function TestimonialSection() {
                                                         className: "text-2xl text-gray-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 130,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 155,
+                                                    lineNumber: 129,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -409,7 +411,7 @@ function TestimonialSection() {
                                                             children: expandedCards[index] ? item.feedback : getShortText(item.feedback)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 135,
                                                             columnNumber: 41
                                                         }, this),
                                                         item.feedback.length > 200 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -418,13 +420,13 @@ function TestimonialSection() {
                                                             children: expandedCards[index] ? "Read Less" : "Read More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 139,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 134,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -434,46 +436,46 @@ function TestimonialSection() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 150,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 149,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 153,
+                                            lineNumber: 127,
                                             columnNumber: 33
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 123,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 147,
+                                lineNumber: 121,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Testimonial.tsx",
-                        lineNumber: 98,
+                        lineNumber: 72,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Testimonial.tsx",
-                lineNumber: 85,
+                lineNumber: 59,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Testimonial.tsx",
-        lineNumber: 80,
+        lineNumber: 54,
         columnNumber: 9
     }, this);
 }
