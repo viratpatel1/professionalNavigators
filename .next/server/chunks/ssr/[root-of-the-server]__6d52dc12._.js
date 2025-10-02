@@ -202,9 +202,6 @@ function TestimonialSection() {
     };
     const [expandedIndex, setExpandedIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [expandedCards, setExpandedCards] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(Array(testimonials.length).fill(false));
-    const toggleTestimonial = (index)=>{
-        setExpandedIndex(expandedIndex === index ? null : index);
-    };
     const toggleCardExpand = (index)=>{
         const newExpanded = [
             ...expandedCards
@@ -226,12 +223,12 @@ function TestimonialSection() {
                     children: "Testimonials"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Testimonial.tsx",
-                    lineNumber: 56,
+                    lineNumber: 52,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Testimonial.tsx",
-                lineNumber: 55,
+                lineNumber: 51,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -246,14 +243,14 @@ function TestimonialSection() {
                                     "What our students ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 59,
                                         columnNumber: 43
                                     }, this),
                                     "have to say"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 62,
+                                lineNumber: 58,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -261,13 +258,13 @@ function TestimonialSection() {
                                 children: "Hear directly from our students about their journey with SPC! With expert guidance, innovative teaching methods, and a student-first approach, we have helped shape countless CA aspirants into future professionals."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 66,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Testimonial.tsx",
-                        lineNumber: 61,
+                        lineNumber: 57,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,12 +284,12 @@ function TestimonialSection() {
                                                         className: "text-3xl text-gray-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 74,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 73,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -300,7 +297,7 @@ function TestimonialSection() {
                                                     children: testimonials[currentIndex].feedback
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 77,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -308,18 +305,18 @@ function TestimonialSection() {
                                                     children: testimonials[currentIndex].name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 85,
+                                                    lineNumber: 81,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 72,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 71,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -332,12 +329,12 @@ function TestimonialSection() {
                                                     className: "text-gray-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 93,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 89,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -347,12 +344,12 @@ function TestimonialSection() {
                                                         className: `w-2 h-2 rounded-full transition-colors ${index === currentIndex ? 'bg-gray-700' : 'bg-gray-300'}`
                                                     }, index, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 102,
+                                                        lineNumber: 98,
                                                         columnNumber: 37
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 96,
                                                 columnNumber: 29
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -362,24 +359,24 @@ function TestimonialSection() {
                                                     className: "text-gray-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 111,
                                                     columnNumber: 33
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 107,
                                                 columnNumber: 29
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 88,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 74,
+                                lineNumber: 70,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -395,12 +392,12 @@ function TestimonialSection() {
                                                         className: "text-2xl text-gray-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 126,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 125,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -411,7 +408,7 @@ function TestimonialSection() {
                                                             children: expandedCards[index] ? item.feedback : getShortText(item.feedback)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                                            lineNumber: 135,
+                                                            lineNumber: 131,
                                                             columnNumber: 41
                                                         }, this),
                                                         item.feedback.length > 200 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -420,13 +417,13 @@ function TestimonialSection() {
                                                             children: expandedCards[index] ? "Read Less" : "Read More"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                                            lineNumber: 139,
+                                                            lineNumber: 135,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 130,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -436,46 +433,46 @@ function TestimonialSection() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 146,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/Testimonial.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 145,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/Testimonial.tsx",
-                                            lineNumber: 127,
+                                            lineNumber: 123,
                                             columnNumber: 33
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/app/components/Testimonial.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 119,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Testimonial.tsx",
-                                lineNumber: 121,
+                                lineNumber: 117,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Testimonial.tsx",
-                        lineNumber: 72,
+                        lineNumber: 68,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Testimonial.tsx",
-                lineNumber: 59,
+                lineNumber: 55,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Testimonial.tsx",
-        lineNumber: 54,
+        lineNumber: 50,
         columnNumber: 9
     }, this);
 }

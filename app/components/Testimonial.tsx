@@ -35,10 +35,6 @@ export default function TestimonialSection() {
         Array(testimonials.length).fill(false)
     );
 
-    const toggleTestimonial = (index: number) => {
-        setExpandedIndex(expandedIndex === index ? null : index);
-    };
-
     const toggleCardExpand = (index: number) => {
         const newExpanded = [...expandedCards];
         newExpanded[index] = !newExpanded[index];
