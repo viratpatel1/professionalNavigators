@@ -30,7 +30,6 @@ export default function TestimonialSection() {
         setCurrentIndex(index);
     };
 
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     const [expandedCards, setExpandedCards] = useState<boolean[]>(
         Array(testimonials.length).fill(false)
     );
